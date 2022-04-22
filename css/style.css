@@ -1,0 +1,25 @@
+#lista ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+#lista ul  li a, #lista ul li i{
+    cursor: pointer;
+}
+#lista ul  li a:hover{
+    font-weight: bold;
+}
+i.fa-xmark:hover{
+    color: red;
+}
+i.fa-check{
+    color: green;
+}
+i.fa-xmark,#lista ul  li a{
+    padding: 5px;
+}
+.list-element li:nth-child(even){
+    background-color:rgb(255, 211, 153); 
+} 
+.list-element li:nth-child(odd){
+    background-color:rgb(255, 237, 158); 
+}
